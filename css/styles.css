@@ -317,7 +317,6 @@ justify-content: center;
 .icon-item {
 width: 40px;
 height: 40px;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link {
@@ -328,6 +327,7 @@ border-radius: 50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-link:hover,
@@ -479,10 +479,9 @@ margin-bottom: 16px;
 
     .footer-icon-item {
         width: 40px;
-height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
+        height: 40px;
+        }
+   
     .icon:hover,
     .icon:focus {
         background-color:#31d0aa;
